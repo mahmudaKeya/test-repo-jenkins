@@ -1,7 +1,7 @@
 <?php
 $dbuser="root";
 $dbpass="";
-$host="localhost";
+$host="192.168.31.51";
 $dbname = "schoolmanagement";
 $mysqli = new mysqli($host, $dbuser, $dbpass, $dbname);
 if(!empty($_POST['cshort'])){
